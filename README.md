@@ -30,7 +30,7 @@ The insights derived from this analysis can help stakeholders optimize revenue a
 
 ## 📊 Dataset
 
-The dataset contains sales transaction data including order details, product categories, sales, profit, and customer information.
+he project utilizes a comprehensive retail dataset containing 10,000+ sales transactions. It includes granular details across order information, product categories, regional performance, and profitability metrics
 
 The dataset used in this project is stored in the `data/` folder.
 

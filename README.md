@@ -42,7 +42,7 @@ The dataset used in this project is stored in the `data/` folder.
 
 ## 🗂️ Data Modeling
 
-The original dataset contained a single table. To simulate a real-world relational database, the data was split into two tables:
+The dataset was normalized into Orders and Products tables to reduce redundancy and simulate real-world relational database design, improving query efficiency and scalability
 
 Orders Table
 
@@ -71,7 +71,7 @@ The project includes structured SQL queries covering:
 * KPI analysis (Sales, Profit, Customer metrics)
 * Category-wise performance
 * Monthly sales trends
-* Month-over-Month (MoM) growth using window functions
+* Implemented Month-over-Month (MoM) growth analysis using SQL window functions (LAG) to track sales trends and identify seasonality patter.
 * Identification of loss-making products
 * Join-based analysis across multiple tables
 
@@ -139,11 +139,11 @@ The dashboard provides an interactive view of:
 
 ## 📈 Key Insights
 
-- Technology category generates the highest overall sales, indicating strong demand.
+- Technology category contributes 35% of total sales, making it the top revenue driver.
 - Certain products consistently incur losses, suggesting pricing or discounting inefficiencies.
-- Monthly sales trends show fluctuations, highlighting possible seasonality effects.
+- Month-over-Month analysis reveals fluctuating sales patterns, suggesting possible seasonality trends.
 - Regional analysis reveals uneven contribution to overall profitability.
-- Higher discount levels are correlated with reduced profit margins.
+- Products with high discount levels consistently generate negative profit, indicating potential over-discounting and pricing inefficiencies in specific sub-categories.
 
 ## 📷 Screenshots
 
@@ -163,4 +163,6 @@ This project demonstrates strong skills in:
 It provides actionable insights to improve:
 - Pricing strategy  
 - Product performance  
-- Business profitability  
+- Business profitability
+
+The insights from this analysis can help businesses optimize discount strategies, eliminate loss-making products, and focus on high-performing regions to improve profitability.

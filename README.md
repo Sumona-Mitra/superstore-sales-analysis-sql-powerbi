@@ -137,6 +137,17 @@ The dashboard provides an interactive view of:
 * Monthly Sales Trends
 * Top Customers
 
+## Dashboard Pages
+
+### V1 Basic Dashboard
+Initial dashboard version focused on core KPI tracking and basic visualizations.
+
+### V2 Advanced Dashboard
+Enhanced dashboard with advanced KPIs, improved visual storytelling, interactive filtering, and business insights.
+
+### Product Detail Drill-through Page
+Detailed product-level analysis page with category-based drill-through reporting.
+
 ## 📈 Key Insights
 
 - Technology category contributes 35% of total sales, making it the top revenue driver.
@@ -152,6 +163,12 @@ The dashboard provides an interactive view of:
 
 ### Interactive Dashboard
 ![Interactive Dashboard](images/Superstore_Sales_Category_Analysis.png)
+
+### V2 Advanced Dashboard
+![V2 Dashboard](images/Superstore_Dashboard_V2.png)
+
+### Drill-through Dashboard
+![Drill-through Dashboard](images/Product_Performance_Drillthrough.png)
 
 ## 🚀 Conclusion
 
